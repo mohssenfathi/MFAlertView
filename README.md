@@ -33,7 +33,7 @@ MFAlertView contains 3 main components:
                 buttonTitles:@[@"Cool", @"Wow", @"Meh"]
                      dismiss:nil];
   ```
-  ![Text Alert](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/activity-indicator.png)
+  ![Text Alert](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/text-alert.png)
   
   or with images:
   ```Objective-C
