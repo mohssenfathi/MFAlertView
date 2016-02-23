@@ -62,6 +62,7 @@ MFAlertView contains 3 main components:
   ```
   ![Success Alert](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/success.png)
   
+  <br/>
   
   2. Activity Indicator - The activity indicator can be presented and dismissed on command, or it can be used as a progress indicator.
   
@@ -88,6 +89,7 @@ MFAlertView contains 3 main components:
   ```
   ![Activity Indicator](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/activity-indicator.png)
   
+  <br/>
   
   3. Status Updates - Status updates are labels that will appear on top of the main view for a brief period to indicate some change in state.
 
@@ -107,6 +109,13 @@ MFAlertView contains 3 main components:
                               completion:nil];
 
   ```
+
+## TODO
+
+  1. Divide compoments into separate classes. One for the alert view, activity indicator, and status update.
+  2. Add more customization options, like background color, dim color, etc. Maybe by changing from class methods to instance methods to reduce method length.
+  3. Fix issued with the progress activity indicator jumping around.
+  4. Fix lag/choppiness when animating views in.
 
 ## Author
 
