@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MFAlertView-MFAlertView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MFAlertView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Pods-MFAlertView_Example.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-MFAlertView_Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3B54ED7F2115F19C0746B05688570084</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64F4B2F5D2409C9A5628D5F569E3CCDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7FC5ACB25C7E7A16ADE63DE5815E8ED1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D58BD1CD3DE926C7962F762FD37B0AFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
