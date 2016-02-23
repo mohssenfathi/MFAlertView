@@ -14,11 +14,13 @@
 		3B76FF7C5624F2E5835F79E667C233F2 /* IndicatorProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0078B05C66B0228F8D9C2AEE10482D59 /* IndicatorProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D2939ECAACAAD48A8E20AD4151921E6 /* ActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BA2D160CAB6D8809C40F7C916BAB2E /* ActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F570B448FFF4561C8C7265B16EB16A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		45F208551C7CEE490032B211 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45F208511C7CEE490032B211 /* Montserrat-Bold.ttf */; };
+		45F208561C7CEE490032B211 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45F208521C7CEE490032B211 /* Montserrat-Regular.ttf */; };
+		45F208571C7CEE490032B211 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F208531C7CEE490032B211 /* Images.xcassets */; };
+		45F208581C7CEE490032B211 /* MFAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F208541C7CEE490032B211 /* MFAlertView.xib */; };
 		45F80AB13052DCF2927D461994E4C10A /* MFAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430480B1403B5BCE0E9272ECE8A42876 /* MFAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69D024397D9187BC9B406BA6A95C08C8 /* MFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6AC0F07EA9E84144FEE0046526070 /* MFAlertView.m */; };
 		7037FB7ADD2BC2E55377A4F8DC403FEF /* Pods-MFAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E632D36EC6E6F9AEDA8FA61CB2FEFF5 /* Pods-MFAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		887385B5D105174A050AC25153C98D50 /* MFAlertView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 82C7CDC17447DFCFE82E6074E911B284 /* MFAlertView.xib */; };
-		B2B21C3A1C7B60A900E2C1DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B21C391C7B60A900E2C1DB /* Images.xcassets */; };
 		BCD458E2821F3EBFF76C1B66F69A42A4 /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 154BC4C03DABAD4A957F584146783894 /* QCMethod.m */; };
 		BE733A97CB088241BB57FC852698002D /* Pods-MFAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ECEE98BD12920114046E64BB3A07B7 /* Pods-MFAlertView_Example-dummy.m */; };
 		D7847E146F77072DF4A1B471A66527BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -72,6 +74,10 @@
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		430480B1403B5BCE0E9272ECE8A42876 /* MFAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFAlertView-umbrella.h"; sourceTree = "<group>"; };
 		4472290024987EAA9642BA371F2ACE1D /* QCMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QCMethod.h; sourceTree = "<group>"; };
+		45F208511C7CEE490032B211 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		45F208521C7CEE490032B211 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		45F208531C7CEE490032B211 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45F208541C7CEE490032B211 /* MFAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAlertView.xib; sourceTree = "<group>"; };
 		46D3E50A1E5EBBAF38D7F25F8B570043 /* MFAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFAlertView.xcconfig; sourceTree = "<group>"; };
 		4EE084C26B93946DB246313EAB35B8F5 /* MFAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFAlertView-prefix.pch"; sourceTree = "<group>"; };
 		4F2B173EDEA24714149AABF6FB56B41E /* Pods_MFAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,14 +89,12 @@
 		797A48CC33FE9801F2CE6BA8E69CBE2C /* Pods-MFAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
 		7B67386621C1618E1A2E0B8EEC69D81E /* Pods-MFAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B8C98FF87D5E4602A83B5D9189C3A65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82C7CDC17447DFCFE82E6074E911B284 /* MFAlertView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MFAlertView.xib; sourceTree = "<group>"; };
 		8DE1E83D78D22D67ADBB8D9C279E5D94 /* Pods-MFAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MFAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		9CF260664175C35462EA75780CF6D897 /* Pods-MFAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A1085AB8AC88B17097B68654A7F1DA08 /* Pods-MFAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AA38C6C905B2C0D713F0081262B9DC06 /* Pods-MFAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
 		AEA9FA4696AE846CE26C34FD19D2E3EA /* Pods-MFAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
 		B0C8B552BAE6D97E15D602DD02FC78C3 /* MFAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2B21C391C7B60A900E2C1DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF3786B15C8970BC4992B0203CE6B00A /* MFAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MFAlertView.h; sourceTree = "<group>"; };
 		CCA8A2685318C5CD9CC2EC57E4D1BBC0 /* Pods-MFAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MFAlertView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -151,7 +155,6 @@
 			children = (
 				BF3786B15C8970BC4992B0203CE6B00A /* MFAlertView.h */,
 				0AA6AC0F07EA9E84144FEE0046526070 /* MFAlertView.m */,
-				82C7CDC17447DFCFE82E6074E911B284 /* MFAlertView.xib */,
 				F6DCE155A00D0F9E8B79611F1AA1F0AA /* ActivityIndicator */,
 				01E9D2021190AAD68452139147CEB659 /* LocationIndicator */,
 			);
@@ -165,6 +168,25 @@
 				8ECE2B956CA3AFC01721A89602A02481 /* Pods-MFAlertView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45F2084F1C7CEE490032B211 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45F208501C7CEE490032B211 /* Fonts */,
+				45F208531C7CEE490032B211 /* Images.xcassets */,
+				45F208541C7CEE490032B211 /* MFAlertView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45F208501C7CEE490032B211 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				45F208511C7CEE490032B211 /* Montserrat-Bold.ttf */,
+				45F208521C7CEE490032B211 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		5ABA74C7C2847254B5029B2F18C2748B /* Pods-MFAlertView_Example */ = {
@@ -188,7 +210,7 @@
 		6B837ECE2A0287CC31DBD2B7EEFA830E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B2B21C391C7B60A900E2C1DB /* Images.xcassets */,
+				45F2084F1C7CEE490032B211 /* Resources */,
 				2776C3534CB6CEA94C5D041CB0EF281A /* Classes */,
 			);
 			path = Pod;
@@ -443,8 +465,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F208581C7CEE490032B211 /* MFAlertView.xib in Resources */,
+				45F208561C7CEE490032B211 /* Montserrat-Regular.ttf in Resources */,
+				45F208571C7CEE490032B211 /* Images.xcassets in Resources */,
+				45F208551C7CEE490032B211 /* Montserrat-Bold.ttf in Resources */,
 				F1F5CA2BB79DFFE60020054044A7360E /* MFAlertView.bundle in Resources */,
-				B2B21C3A1C7B60A900E2C1DB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +500,6 @@
 				36B55AFE1C32F09EEF501A2585203D4A /* LocationIndicator.m in Sources */,
 				ECD9751DB47FC5E1FB2CC45A3E0A6985 /* MFAlertView-dummy.m in Sources */,
 				69D024397D9187BC9B406BA6A95C08C8 /* MFAlertView.m in Sources */,
-				887385B5D105174A050AC25153C98D50 /* MFAlertView.xib in Sources */,
 				BCD458E2821F3EBFF76C1B66F69A42A4 /* QCMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

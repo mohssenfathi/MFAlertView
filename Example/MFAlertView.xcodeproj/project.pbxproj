@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45F2085F1C7CEE720032B211 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45F2085B1C7CEE720032B211 /* Montserrat-Bold.ttf */; };
+		45F208601C7CEE720032B211 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45F2085C1C7CEE720032B211 /* Montserrat-Regular.ttf */; };
+		45F208611C7CEE720032B211 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F2085D1C7CEE720032B211 /* Images.xcassets */; };
+		45F208621C7CEE720032B211 /* MFAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F2085E1C7CEE720032B211 /* MFAlertView.xib */; };
 		4FEE82267A4D65FA870CA53E /* Pods_MFAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87FF629DD170771DD136715 /* Pods_MFAlertView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -28,10 +32,6 @@
 		B2B21C281C7B5ECD00E2C1DB /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B21C1D1C7B5ECD00E2C1DB /* QCMethod.m */; };
 		B2B21C291C7B5ECD00E2C1DB /* LocationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B21C201C7B5ECD00E2C1DB /* LocationIndicator.m */; };
 		B2B21C2A1C7B5ECD00E2C1DB /* MFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B21C221C7B5ECD00E2C1DB /* MFAlertView.m */; };
-		B2B21C2B1C7B5ECD00E2C1DB /* MFAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B21C231C7B5ECD00E2C1DB /* MFAlertView.xib */; };
-		B2B21C371C7B604700E2C1DB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2B21C351C7B604700E2C1DB /* Montserrat-Bold.ttf */; };
-		B2B21C381C7B604700E2C1DB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2B21C361C7B604700E2C1DB /* Montserrat-Regular.ttf */; };
-		B2B21C3C1C7B60F400E2C1DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B21C3B1C7B60F400E2C1DB /* Images.xcassets */; };
 		BEFF771F91D8E30DFD99A0FB /* Pods_MFAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9267FF5F8ADDF6CC6F66302E /* Pods_MFAlertView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +50,10 @@
 		26540E64FD7548483AC94F0A /* Pods-MFAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFAlertView_Tests/Pods-MFAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		346363E96DD1A20605588359 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		36F43948933E38A0B0E4EF51 /* MFAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MFAlertView.podspec; path = ../MFAlertView.podspec; sourceTree = "<group>"; };
+		45F2085B1C7CEE720032B211 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		45F2085C1C7CEE720032B211 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		45F2085D1C7CEE720032B211 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45F2085E1C7CEE720032B211 /* MFAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAlertView.xib; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MFAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,10 +89,6 @@
 		B2B21C201C7B5ECD00E2C1DB /* LocationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationIndicator.m; sourceTree = "<group>"; };
 		B2B21C211C7B5ECD00E2C1DB /* MFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAlertView.h; sourceTree = "<group>"; };
 		B2B21C221C7B5ECD00E2C1DB /* MFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAlertView.m; sourceTree = "<group>"; };
-		B2B21C231C7B5ECD00E2C1DB /* MFAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAlertView.xib; sourceTree = "<group>"; };
-		B2B21C351C7B604700E2C1DB /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		B2B21C361C7B604700E2C1DB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		B2B21C3B1C7B60F400E2C1DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Pod/Images.xcassets; sourceTree = "<group>"; };
 		E87FF629DD170771DD136715 /* Pods_MFAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +127,26 @@
 				1638E10BE822E00A5F679370 /* Pods-MFAlertView_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		45F208591C7CEE720032B211 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45F2085A1C7CEE720032B211 /* Fonts */,
+				45F2085D1C7CEE720032B211 /* Images.xcassets */,
+				45F2085E1C7CEE720032B211 /* MFAlertView.xib */,
+			);
+			name = Resources;
+			path = ../../Pod/Resources;
+			sourceTree = "<group>";
+		};
+		45F2085A1C7CEE720032B211 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				45F2085B1C7CEE720032B211 /* Montserrat-Bold.ttf */,
+				45F2085C1C7CEE720032B211 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -226,7 +246,6 @@
 				B2B21C1E1C7B5ECD00E2C1DB /* LocationIndicator */,
 				B2B21C211C7B5ECD00E2C1DB /* MFAlertView.h */,
 				B2B21C221C7B5ECD00E2C1DB /* MFAlertView.m */,
-				B2B21C231C7B5ECD00E2C1DB /* MFAlertView.xib */,
 				B2B21C241C7B5ECD00E2C1DB /* SaveAlert */,
 			);
 			name = Classes;
@@ -274,29 +293,10 @@
 			isa = PBXGroup;
 			children = (
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				B2B21C3B1C7B60F400E2C1DB /* Images.xcassets */,
-				B2B21C331C7B604700E2C1DB /* Resources */,
+				45F208591C7CEE720032B211 /* Resources */,
 				B2B21C141C7B5ECD00E2C1DB /* Classes */,
 			);
 			name = MFAlertView;
-			sourceTree = "<group>";
-		};
-		B2B21C331C7B604700E2C1DB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B2B21C341C7B604700E2C1DB /* Fonts */,
-			);
-			name = Resources;
-			path = ../../Pod/Resources;
-			sourceTree = "<group>";
-		};
-		B2B21C341C7B604700E2C1DB /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				B2B21C351C7B604700E2C1DB /* Montserrat-Bold.ttf */,
-				B2B21C361C7B604700E2C1DB /* Montserrat-Regular.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,12 +382,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B21C2B1C7B5ECD00E2C1DB /* MFAlertView.xib in Resources */,
-				B2B21C3C1C7B60F400E2C1DB /* Images.xcassets in Resources */,
+				45F208611C7CEE720032B211 /* Images.xcassets in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				B2B21C381C7B604700E2C1DB /* Montserrat-Regular.ttf in Resources */,
-				B2B21C371C7B604700E2C1DB /* Montserrat-Bold.ttf in Resources */,
+				45F208601C7CEE720032B211 /* Montserrat-Regular.ttf in Resources */,
+				45F2085F1C7CEE720032B211 /* Montserrat-Bold.ttf in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				45F208621C7CEE720032B211 /* MFAlertView.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				B2B21C251C7B5ECD00E2C1DB /* .gitkeep in Resources */,
 			);
