@@ -31,7 +31,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     switch (section) {
-        case 0: return 4;
+        case 0: return 6;
         case 1: return 3;
         case 2: return 4;
         default: break;
@@ -64,6 +64,8 @@
                 case 1: title = @"Image Buttons";        break;
                 case 2: title = @"Colored Text Buttons"; break;
                 case 3: title = @"Custom Buttons";       break;
+                case 4: title = @"Success";              break;
+                case 5: title = @"Failure";              break;
                 default: break;
             }
             break;
@@ -160,6 +162,12 @@
             [MFAlertView showWithTitle:@"Alert" body:@"These are custom views." buttonViews:@[view1, view2, view3] dismiss:nil];
         }
             break;
+        case 4:
+            [MFAlertView showSuccessAlertWithTitle:@"Success" body:@"Whatever it was. It worked." dismiss:nil];
+            break;
+        case 5:
+            [MFAlertView showFailureAlertWithTitle:@"Uh Oh" body:@"There was a problem." dismiss:nil];
+            break;
             
         default:
             break;
@@ -174,7 +182,7 @@
                 [MFAlertView hideActivityIndicator];
             }];
             break;
-            
+
         case 1:
             [MFAlertView showActivityIndicatorWithCompletion:^{
                 sleep(5);
