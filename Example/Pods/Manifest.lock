@@ -1,0 +1,14 @@
+PODS:
+  - MFAlertView (0.1.0)
+
+DEPENDENCIES:
+  - MFAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  MFAlertView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MFAlertView: ad2b7ebae50b3727b838115a4db0afdeb7354787
+
+COCOAPODS: 0.39.0
