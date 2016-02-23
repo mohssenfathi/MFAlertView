@@ -20,6 +20,88 @@ it, simply add the following line to your Podfile:
 pod "MFAlertView"
 ```
 
+## Usage
+
+MFAlertView contains 3 main components:
+
+  1. Alert View - The alert view is an alternative to the native iOS UIAlertView. It allows for a few customization options, but it's main purpose is to provide a quick way to present a dialog with an arbitrary number of actions. The alert view provides a very quick and easy way to present a range of buttons with text, images, or custom views.
+  
+  To create a basic alert view with text buttons:
+  ```Objective-C
+  [MFAlertView showWithTitle:@"Alert"
+                        body:@"These are some basic text buttons."
+                buttonTitles:@[@"Cool", @"Wow", @"Meh"]
+                     dismiss:nil];
+  ```
+  
+  or with images:
+  ```Objective-C
+  [MFAlertView showWithTitle:@"Alert"
+                        body:@"These are some image buttons."
+                buttonImages:@[[UIImage imageNamed:@"new"], [UIImage imageNamed:@"edit"], [UIImage imageNamed:@"delete"]]
+                     dismiss:nil];
+  ```
+  
+  or with custom views:
+  ```Objective-C
+  [MFAlertView showWithTitle:@"Alert" 
+                        body:@"These are custom views." 
+                 buttonViews:@[view1, view2, view3] 
+                     dismiss:nil];
+
+  ```
+  
+  to indicate success/failure:
+  ```Objective-C
+  [MFAlertView showSuccessAlertWithTitle:@"Success" body:@"Whatever it was. It worked." dismiss:nil];
+  
+  [MFAlertView showFailureAlertWithTitle:@"Uh Oh" body:@"There was a problem." dismiss:nil];
+
+  ```
+  
+  2. Activity Indicator - The activity indicator can be presented and dismissed on command, or it can be used as a progress indicator.
+  
+  Adding an activity indicator is as simple as:
+  ```Objective-C
+  [MFAlertView showActivityIndicator];
+  ```
+  
+  then to remove it:
+  ```Objective-C  
+  [MFAlertView hideActivityIndicator];
+  ```
+  
+  the activity indicator can show progress as well:
+  ```Objective-C  
+  [MFAlertView showActivityIndicatorWithProgress:0 title:@"Downloading" dimBackground:YES completion:^{
+      [MFAlertView setProgress:0.1];
+      [MFAlertView setProgress:0.2];
+      .
+      .
+      [MFAlertView setProgress:1.0];
+      [MFAlertView hideActivityIndicator];
+  }];
+  ```
+  
+  3. Status Updates - Status updates are labels that will appear on top of the main view for a brief period to indicate some change in state.
+
+  To show a status update:
+  ```Objective-C  
+  [MFAlertView showStatusUpdateWithTitle:@"Status Update" autoDismiss:YES completion:^{
+      . . .
+  }];
+  ```
+  
+  to present the status update at a custom location:
+  ```Objective-C  
+  [MFAlertView showStatusUpdateWithTitle:@"Dark Status" 
+                                location:CGPointMake(200, 200)
+                                    dark:YES 
+                             autoDismiss:YES 
+                              completion:nil];
+
+  ```
+
 ## Author
 
 mohssenfathi, mmohssenfathi@gmail.com
