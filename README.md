@@ -33,6 +33,7 @@ MFAlertView contains 3 main components:
                 buttonTitles:@[@"Cool", @"Wow", @"Meh"]
                      dismiss:nil];
   ```
+  ![Text Alert](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/activity-indicator.png)
   
   or with images:
   ```Objective-C
@@ -41,6 +42,7 @@ MFAlertView contains 3 main components:
                 buttonImages:@[[UIImage imageNamed:@"new"], [UIImage imageNamed:@"edit"], [UIImage imageNamed:@"delete"]]
                      dismiss:nil];
   ```
+  ![Image Alert](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/image-alert.png)
   
   or with custom views:
   ```Objective-C
@@ -58,6 +60,8 @@ MFAlertView contains 3 main components:
   [MFAlertView showFailureAlertWithTitle:@"Uh Oh" body:@"There was a problem." dismiss:nil];
 
   ```
+  ![Success Alert](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/success.png)
+  
   
   2. Activity Indicator - The activity indicator can be presented and dismissed on command, or it can be used as a progress indicator.
   
@@ -82,6 +86,8 @@ MFAlertView contains 3 main components:
       [MFAlertView hideActivityIndicator];
   }];
   ```
+  ![Activity Indicator](https://github.com/mohssenfathi/MFAlertView/blob/master/Screenshots/activity-indicator.png)
+  
   
   3. Status Updates - Status updates are labels that will appear on top of the main view for a brief period to indicate some change in state.
 
